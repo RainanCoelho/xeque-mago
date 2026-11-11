@@ -7,7 +7,7 @@ Derrube o Mago inimigo para vencer, sem perder o seu.
 
 ## Baixar e jogar (Windows)
 
-1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.3-windows.zip`.
+1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.4-windows.zip`.
 2. Extraia o zip numa pasta.
 3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
 
@@ -18,8 +18,13 @@ Requisitos: Windows 10 ou 11 (64 bits) e placa de vídeo com Vulkan.
 
 ## Modos
 
+- **Tutorial**: ensina a andar, atacar, quebrar a torre do escudo e derrubar o Mago, passo a passo
 - **Contra a CPU**
 - **Dois jogadores** no mesmo computador, passando a vez
+
+## Tutorial
+
+![Tutorial](imagens/09_tutorial.png)
 
 ## Como funciona
 
@@ -50,6 +55,10 @@ Cada boneco tem **1 golpe de dano** (fraco e com condição), **4 golpes de efei
 
 ![Classes e golpes](imagens/05_classes_e_golpes.png)
 
+Na escolha do exército, o botão **!** ao lado de cada boneco abre a ficha dele: classe, passiva, atributos e golpes.
+
+![Ficha do boneco](imagens/10_ficha.png)
+
 ## Mapas e eventos aleatórios
 
 Cinco mapas, cada um com 3 eventos. Cada evento é anunciado uma rodada antes num cartaz no meio da tela, com as casas
@@ -66,6 +75,8 @@ e, se durar mais de uma rodada, um aviso no canto mostra quantas rodadas faltam:
 
 ![Evento: névoa](imagens/06_evento_nevoa.png)
 
+![Lago](imagens/08_lago.png)
+
 ## Controles
 
 - **W A S D**: mover a câmera
@@ -81,5 +92,5 @@ bugs e ideias. Prints ajudam muito.
 
 ---
 
-Versão 0.3 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
+Versão 0.4 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
 o código-fonte não está público.

@@ -7,7 +7,7 @@ Derrube o Mago inimigo para vencer, sem perder o seu.
 
 ## Baixar e jogar (Windows)
 
-1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.5-windows.zip`.
+1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.5.1-windows.zip`.
 2. Extraia o zip numa pasta.
 3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
 
@@ -67,8 +67,14 @@ A defesa do Mago tem **três etapas**:
   Cada boneco recebe uma bênção por partida.
 - **Dado de 20 lados.** Todo ataque com dano rola um d20 contra um mínimo calculado pelos atributos; o alvo rola a
   defesa. 1 sempre erra; 20 é crítico (+50% de dano, sem defesa).
-- **Energia.** Cada golpe gasta energia do boneco, que volta 3 por turno. Golpes básicos custam 2 ou 3; os grandes,
-  de 6 a 8.
+- **Energia.** Cada golpe gasta energia do boneco. Golpes básicos custam 2 ou 3; os grandes, de 6 a 8. A energia volta
+  devagar e cada boneco tem o seu ritmo:
+
+  | Recupera por turno | Bonecos |
+  |---|---|
+  | 2 | Lobo Sombrio, Fantasma, Árvore Anciã, Geomante, Maga das Marés |
+  | 1 | Minotauro, Golem, Yeti, Titã de Lava, Arqueira Élfica, Goblin Catapulta, Verme das Dunas |
+  | 1, ou 2 ao lado de fogo | Salamandra |
 
 ![Duelo de dados](imagens/04_duelo_de_dados.png)
 
@@ -104,7 +110,7 @@ Muro de Obsidiana.
 |---|---|---|
 | Tanque | Golem, Minotauro, Yeti, Titã de Lava | Aguenta golpes, segura a linha, protege |
 | Assassino | Lobo Sombrio, Salamandra, Verme das Dunas | Entra pelos flancos e finaliza |
-| Atirador | Arqueira Élfica, Goblin Catapulta | Age de longe e muda o terreno |
+| Atirador | Arqueira Élfica, Goblin Catapulta (gigante 2x2) | Age de longe e muda o terreno |
 | Suporte | Árvore Anciã, Fantasma, Geomante, Maga das Marés | Cura, protege e controla |
 
 Na escolha do exército, o botão **!** ao lado de cada boneco abre a ficha dele: classe, passiva, atributos e golpes.
@@ -144,5 +150,5 @@ bugs e ideias. Prints ajudam muito.
 
 ---
 
-Versão 0.5 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
+Versão 0.5.1 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
 o código-fonte não está público.

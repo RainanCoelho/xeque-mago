@@ -7,7 +7,7 @@ Derrube o Mago inimigo para vencer, sem perder o seu.
 
 ## Baixar e jogar (Windows)
 
-1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.2-windows.zip`.
+1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.3-windows.zip`.
 2. Extraia o zip numa pasta.
 3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
 
@@ -30,7 +30,9 @@ Requisitos: Windows 10 ou 11 (64 bits) e placa de vídeo com Vulkan.
   terreno) alcançam a arena inteira. Quebre um pilar e a guarda desmorona: o Mago passa a atacar.
 - **Totens de flanco.** Enquanto os dois totens de um lado estão de pé, o Mago desse lado não leva dano.
   Para vencer, é preciso ir pelos flancos.
-- **Santuários.** Quem começa o turno num santuário dourado ganha +3 no próximo golpe.
+- **Santuários.** O boneco que chega a um santuário dourado escolhe uma bênção que vale até o fim da partida:
+  **Ataque** (+2 de dano), **Defesa** (defende com 3 a menos no dado) ou **Velocidade** (+1 casa por movimento).
+  Cada boneco recebe uma bênção por partida.
 - **Dado de 20 lados.** Todo ataque rola um d20 contra um mínimo calculado pelos atributos; o alvo rola a defesa.
 
 ![Duelo de dados](imagens/04_duelo_de_dados.png)
@@ -50,7 +52,9 @@ Cada boneco tem **1 golpe de dano** (fraco e com condição), **4 golpes de efei
 
 ## Mapas e eventos aleatórios
 
-Cinco mapas, cada um com 3 eventos que são anunciados uma rodada antes:
+Cinco mapas, cada um com 3 eventos. Cada evento é anunciado uma rodada antes num cartaz no meio da tela, com as casas
+atingidas marcadas em vermelho; quando acontece, aparece o efeito no tabuleiro (chuva, neve, areia, pedras caindo...)
+e, se durar mais de uma rodada, um aviso no canto mostra quantas rodadas faltam:
 
 | Mapa | Eventos |
 |---|---|
@@ -77,5 +81,5 @@ bugs e ideias. Prints ajudam muito.
 
 ---
 
-Versão 0.2 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
+Versão 0.3 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
 o código-fonte não está público.
